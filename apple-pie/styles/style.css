@@ -1,2 +1,8 @@
-body{background-color: rgb(223, 215, 215);
+body{
+    font-size: xx-large;
+    background-color: rgb(223, 215, 215);
+}
+p {
+    font-family: Arial;
+    background-color: blue;
 }
