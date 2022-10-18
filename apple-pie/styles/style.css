@@ -1,8 +1,44 @@
-body{
-    font-size: xx-large;
-    background-color: rgb(223, 215, 215);
+.conteiner {
+    width: 800px;
+    margin: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    color: black;
 }
-p {
+
+.conteiner img {
+    width: 100%; 
+}
+.centro {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    transition: translate(-50%,50%);
+    text-align: center;
+    font-size: xx-large;
+    color: purple;
+    background-color: transparent;
+    padding: 10px;
+}
+.abaixo  {
+   position: relative;
+   bottom: 0;
+   left: 0;
+   text-align: center;
+   font-size: larger;
+   background-color: white;
+   color: black;
+   padding: 10px;
+}
+
+
+body{
+    font-size-adjust: initial;
     font-family: Arial;
-    background-color: blue;
+}
+
+header {
+    color: black;
+    background-color: rgb(252, 252, 252);
 }
